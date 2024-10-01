@@ -72,12 +72,20 @@ Este projeto já conta com o código necessário para subir a API em um servidor
 │   │   └── livrosImagensService.js
 │   │   └── livrosService.js
 │   │   └── usuariosService.js
-│   ├── test
+│   ├── __test__
+│   │   │   ├── config
+│   │   │   │   └── disparoEmail.test.js
+│   │   │   ├── db
+│   │   │   │   └── dbConfig.test.js
 │   │   │   ├── models
 │   │   │   │   └── editora.test.js
 │   │   │   ├── routes
+│   │   │   │   └── authRoutes.test.js
 │   │   │   │   └── editorasRoutes.test.js
-```
+│   │   │   ├── services
+│   │   │   │   └── aluguelLivroService.test.js
+│   │   │   │   └── authService.test.js
+│   │   │   │   └── livrosImagensService.test.js
 
 
 ### Instalação do projeto
